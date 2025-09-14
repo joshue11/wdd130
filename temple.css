@@ -33,7 +33,7 @@ main {
 
 /* Imágenes específicas dentro del main */
 main img {
-  width: 150px;
+  width: 100px;
   height: auto;
   display: block;
   margin: 1rem 0;
