@@ -1,60 +1,43 @@
-/* nav Rule */
-nav {
-  background-color: #4682b4;
-  padding: 1rem;
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
 }
 
-/* nav a Rule */
-nav a {
-  color: white;
-  padding: 0.5rem;
-  display: block;
+header {
+  background-color: #f4f4f4;
+  padding: 20px;
+  text-align: center;
 }
 
-/* h1 Rule */
-h1 {
-  color: #2c3e50;
-}
-
-/* img Rule */
-img {
-  width: 100%;
-  height: auto;
-  border: 1px solid #ccc;
-  padding: 0.5rem;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-}
-
-/* main Rule */
-main {
-  max-width: 600px;
-  margin: 0 auto;
-}
-
-/* aside Rule */
-aside {
-  width: 300px;
-  margin: 1.5rem auto;
-  padding: 1rem;
-  border: 1px solid #ccc;
-  background-color: #f0f8ff;
-  color: #333;
-}
-
-/* aside img Rule */
-aside img {
-  width: 200px;
-  height: auto;
-}
-
-/* paragraph p Rule */
-p {
+nav ul {
+  list-style: none;
   padding: 0;
 }
 
-/* footer Rule */
+nav li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+.intro, .location {
+  padding: 20px;
+  margin: 20px;
+}
+
+.intro img, .location img {
+  max-width: 100%;
+  height: auto;
+}
+
 footer {
-  margin-top: 2rem;
-  border-top: 2px solid #ccc;
   text-align: center;
+  padding: 10px;
+  background-color: #f4f4f4;
 }
