@@ -1,1 +1,112 @@
 
+
+/* rafting.css */
+/* Root color scheme */
+:root {
+  --primary-color: #006494;
+  --secondary-color: #247ba0;
+  --accent1-color: #13293d;
+  --accent2-color: #e8f1f2;
+
+  --heading-font: 'Georgia', serif;
+  --body-font: 'Arial', sans-serif;
+}
+
+/* Reset box model */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: var(--body-font);
+  color: var(--accent1-color);
+  background-color: var(--accent2-color);
+  line-height: 1.6;
+}
+
+/* Page width and centering */
+header, main, footer {
+  width: 840px;
+  margin: 0 auto;
+}
+
+/* Headings */
+h1, h2 {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+}
+
+/* Generic margins */
+nav, p, section, article {
+  margin: 16px;
+  padding: 8px;
+}
+
+/* Navigation */
+nav a {
+  margin-right: 16px;
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: var(--secondary-color);
+}
+
+/* Hero section */
+.hero {
+  position: relative;
+}
+
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.hero h1 {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  padding: 16px;
+  text-align: center;
+  opacity: 0.8;
+  background-color: var(--accent1-color);
+  color: #fff;
+  font-size: 2rem;
+}
+
+.hero article {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.hero article img {
+  float: right;
+  width: 125px;
+  margin-left: 12px;
+  border-radius: 6px;
+  box-shadow: 0 0 6px rgba(0,0,0,0.2);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 24px;
+  padding: 16px;
+  border-top: 2px solid var(--primary-color);
+}
+
+.socialmedia a {
+  text-decoration: none;
+  margin: 0 8px;
+}
