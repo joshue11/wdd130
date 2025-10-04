@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Pro Rafting Company for inquiries, reservations, or suggestions. Reach out via phone, email, or our online form.">
+    <title>Pro Rafting - Contact Us</title>
+    <link rel="stylesheet" href="rafting.css">
+</head>
+<body>
+    <header>
+        <h1>Pro Rafting Adventures</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html" class="active">Contact Us</a></li>
+                <li><a href="reservations.html">Reservations</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="company-info">
+            <h2>Contact Information</h2>
+            <p>Address: 123 River Rd, Adventure City, WY 12345</p>
+            <p>Phone: (555) 123-4567</p>
+            <p>Email: info@prorafting.com</p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3058.123456!2d-111.123456!3d40.123456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x123456789abcdef!2sPro%20Rafting!5e0!3m2!1sen!2sus!4v1234567890"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </section>
+
+        <section class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form action="#" method="post">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+
+                <fieldset>
+                    <legend>Purpose of Your Message:</legend>
+                    <input type="radio" id="general" name="purpose" value="general" required>
+                    <label for="general">General Inquiry</label>
+
+                    <input type="radio" id="reservation" name="purpose" value="reservation">
+                    <label for="reservation">Reservation Question</label>
+
+                    <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                    <label for="suggestion">Website Suggestion</label>
+                </fieldset>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <input type="checkbox" id="newsletter" name="newsletter">
+                <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+        <section class="employees">
+            <h2>Meet Our Team</h2>
+            <figure>
+                <img src="images/employee1.jpg" alt="Jane Doe, Tour Guide">
+                <figcaption>Jane Doe - Senior Tour Guide</figcaption>
+            </figure>
+            <figure>
+                <img src="images/employee2.jpg" alt="John Smith, Operations Manager">
+                <figcaption>John Smith - Operations Manager</figcaption>
+            </figure>
+            <figure>
+                <img src="images/employee3.jpg" alt="Emily Johnson, Customer Service">
+                <figcaption>Emily Johnson - Customer Service</figcaption>
+            </figure>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Pro Rafting Adventures. All rights reserved.</p>
+        <p><a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Service</a></p>
+    </footer>
+</body>
+</html>
